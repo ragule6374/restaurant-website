@@ -1,0 +1,163 @@
+body{
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  z-index: 1;
+}
+.container img{
+  width: 5%;
+  height: 30%;
+}
+.container ul{
+
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container ul li{
+    align-items: center;
+  list-style-type: none;
+  flex:1;
+  font-size: 25px;
+  font-family: "Barlow Condensed";
+  text-align: center;
+}
+.container ul li a{
+    text-decoration: none;
+    color: #000;    
+}
+.container-content img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.container-content h3{
+    position: absolute;
+    top: 120%;
+    left:8%;
+    color: white;
+    font-size: 30px;
+    font-family: "Barlow Condensed";
+    letter-spacing: 5px;
+    border-radius: 1px solid #000;
+    background-color: #483f3f;
+    padding: 7px 35px;
+
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    column-count:3;
+    background-color: rgba(148, 143, 143, 0.727);
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.container-content-special{
+    width: 100%;
+    height: 100hv;
+    padding-top: 20px;
+    background-color: rgba(211, 206, 206, 0.727);
+    padding-left: 30px;
+    
+   
+}
+h1{
+    width:100%;
+    height:10%;
+    display:block;
+    padding-left: 30px;
+}
+.images{
+    flex-direction: column;
+    column-count:3;
+    color: black;
+    
+}
+.image1{
+    width:100%;
+    height:100%;
+    padding-left: 20px;
+}
+.image1 img{
+    width:50%;
+    height:50%;
+}
+.img p{
+    color:#0c0101;
+}
+.image1 label{
+    border-radius: 1px solid #000;
+    background-color: #0c0101;
+    color: white;
+    padding: 5px 15px;
+}
+.image2{
+    width:100%;
+    height:100%;
+    padding-left: 20px;
+}
+.image2 img{
+    width:50%;
+    height:50%;
+}
+.image2 label{
+    color:darkblack;
+}
+.image2 label{
+    border-radius: 1px solid #000;
+    background-color: #0c0101;
+    color: white;
+    padding: 5px 15px;
+}
+.image3{
+    width:100%;
+    height:100%;
+    padding-left: 20px;
+}
+.image3 img{
+    width:50%;
+    height:50%;
+
+}
+.image3 p{
+    color:#0c0101;
+    padding-right: 7px;
+}
+.image3 label{
+    border-radius: 1px solid #000;
+    background-color: #0c0101;
+    color: white;
+    padding: 5px 15px;
+}
+
+@media screen and (max-width: 767pxpx){
+    .container{
+        display: flex;
+      width: 100%;
+      height: 90px;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+      z-index: 1;
+    }
+    .container img{
+      width: 5%;
+      height: 30%;
+    }
+    .container ul li{
+        flex-direction: column;
+        font-size: 4px;
+    }
+}
